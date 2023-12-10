@@ -1,3 +1,7 @@
-# Adding an attribute for including binary files in language chart
+* text=auto
 
-*.bin linguist-detectable=true
+*.md text
+
+*.bin binary
+
+*.bin linguist-language=Binary
