@@ -56,6 +56,7 @@
 > ![keyboardinput](image-5.png)
 
 &nbsp;
+> ### Storing Inputs
 > Now, <a href="/input-store-print.asm">here's</a> a program that reads a string, stores it in a variable and then prints it on the screen. Along with some other text being displayed.
 >
 > ![pretty_solid_huh?](image-6.png)
