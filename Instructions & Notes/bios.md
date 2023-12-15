@@ -60,10 +60,10 @@
 > ```
 >
 > The above code prints all the characters from `A` to `Z` as below:
-> ![A2Z](image-1.png)
+> ![A2Z](img/image-1.png)
 
-> For the challenge posed in the video, I've solved it using the code in <a href="/boot_alternateCAPletters.asm">this file.</a>
+> For the challenge posed in the video, I've solved it using the code in <a href="/learning-code/boot_alternateCAPletters.asm">this file.</a>
 > 
-> ![alternatingCaps](image-2.png)
+> ![alternatingCaps](img/image-2.png)
 
 Continued in <a href="./strings.md">the next part</a>...

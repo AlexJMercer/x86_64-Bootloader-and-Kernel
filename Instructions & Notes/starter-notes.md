@@ -17,7 +17,7 @@
 
 > **NOTE :** The whole binary file needs to be exactly 512 bytes long, to be recognized as bootable.
 >
-> Following code is defined in <a href="/boot_sect_simple.asm">`boot_sect_simple.asm`</a> file.
+> Following code is defined in <a href="/learning-code/boot_sect_simple.asm">`boot_sect_simple.asm`</a> file.
 >
 > > `jmp $` : Jump to the current address, which is an infinite loop.<br>
 > > `times 510-($-$$) db 0` : Fill the rest of the 512 bytes with zeros.<br>
@@ -32,7 +32,7 @@
 > Now, we need to compile the assembly code into a binary file.
 >
 > Using NASM for Windows (I got it through winget package manager), we can compile the `.asm` file using the following command:
-> > `nasm -f bin boot_sect_simple.asm -o boot_simp.bin`
+> > `nasm -f bin learning-code/boot_sect_simple.asm -o boot_simp.bin`
 >
 > This generates a binary file, exactly 512 bytes long.
 >
@@ -43,7 +43,7 @@
 >
 > This will run the binary file in a virtual machine, and we can see the output in the terminal.
 >
-> ![first boot](image.png)
+> ![first boot](img/image.png)
 
 
 Continued in <a href="./bios.md">the next part</a>...

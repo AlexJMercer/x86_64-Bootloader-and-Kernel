@@ -45,7 +45,7 @@
 > int 0x10
 > ```
 >
-> Check out the full code in <a href="../readdisk.asm">readdisk.asm</a>
+> Check out the full code in <a href="../learning-code/readdisk.asm">readdisk.asm</a>
 
 > **Note :** The BIOS will set the `carry flag (cf)` if there is an error. So we can check for errors by checking the `carry flag`.
 

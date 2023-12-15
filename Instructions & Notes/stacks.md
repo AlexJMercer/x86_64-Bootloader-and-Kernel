@@ -41,7 +41,7 @@
 
 ## 10. Segmentation
 
-> ![segmentation fault](image-7.png)
+> ![segmentation fault](img/image-7.png)
 >
 > If you've dabbled with C/C++, at some point you may have come across the `segmentation fault` error. Ever wondered what that was about? <br>
 > This is because the program tried to access a memory location that it was not allowed to access.

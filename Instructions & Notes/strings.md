@@ -17,7 +17,7 @@
 >     db "Hello", 'F', 2  ; Or we can mix and match
 > ```
 >
-> In <a href="../strings.asm">this file</a>, I am printing a string on the screen.
+> In <a href="../learning-code/strings.asm">this file</a>, I am printing a string on the screen.
 > 
 > Here a `variable` is created, by using `db` to define a string and add a null character to the end of it.
 >
@@ -30,17 +30,17 @@
 >
 > The image below shows what is displayed on the screen when **NO** offset is added to the pointer.
 >
-> ![no offset](image-3.png)
+> ![no offset](img/image-3.png)
 >
 > And now we add the offset of `0x7c00` to the pointer.
 >
 > Similarly we can also set the offset of the pointer by using the `org` directive as `[org 0x7c00]`
 >
-> ![with offset](image-4.png)
+> ![with offset](img/image-4.png)
 >
 > Now, we can see that the first character of the string is printed on the screen. Now we use a loop to print the rest.
 >
-> The full code to display the text on the screen is given <a href="/printStr.asm">here</a> !!
+> The full code to display the text on the screen is given <a href="/learning-code/printStr.asm">here</a> !!
 
 
 ## 7. Keyboard Inputs
@@ -51,15 +51,15 @@
 >
 > Scan codes are used to identify which key was pressed. For example, the scan code for the `A` key is `0x1e`.
 >
-> Simple program below to only read and display characters from the keyboard is given <a href="/keyboardInp.asm">here</a>.
+> Simple program below to only read and display characters from the keyboard is given <a href="/learning-code/keyboardInp.asm">here</a>.
 >
-> ![keyboardinput](image-5.png)
+> ![keyboardinput](img/image-5.png)
 
 &nbsp;
 > ### Storing Inputs
-> Now, <a href="/input-store-print.asm">here's</a> a program that reads a string, stores it in a variable and then prints it on the screen. Along with some other text being displayed.
+> Now, <a href="/learning-code/input-store-print.asm">here's</a> a program that reads a string, stores it in a variable and then prints it on the screen. Along with some other text being displayed.
 >
-> ![pretty_solid_huh?](image-6.png)
+> ![pretty_solid_huh?](img/image-6.png)
 
 &nbsp;
 Continued in <a href="./stacks.md">the next part</a>...
