@@ -1,0 +1,11 @@
+# Folders
+
+/src/binutils-2.41
+/src/binutils-build
+/src/gcc-13.2.0
+/src/gcc-build
+
+# zip files
+
+*.tar.gz
+

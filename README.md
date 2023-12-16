@@ -3,7 +3,7 @@
 
 <h3 align="center"> 
 
-![Alt text](/Instructions%20&%20Notes/image-5.png)
+![Alt text](/Instructions%20&%20Notes/img/image-5.png)
 </h3>
 
 ## Introduction
@@ -33,4 +33,14 @@ I've implemented it using **BASH**, in a file called `run.sh`. You can use it by
 >
 > **NOTE :** You will need to have WSL installed on your machine to use this script. Also, you will need to have QEMU and NASM installed in your WSL environment as well.
 >
-> **Alternatively**, you can use the `run.bat` like so: `run.bat <filename>`. This will generate a `output.bin` file and run it on QEMU. 
+> **Alternatively**, you can use the `run.bat` like so: `run.bat <filename>`. This will generate a `output.bin` file and run it on QEMU.
+
+## Building the files
+
+> For sake of simplicity and convenience, I've chosen to build and run the final file in **`WSL`**.
+>
+> I have included a long list of dependencies and instructions in the `setup-g++-wsl.sh` file in the <a href="./src/">`src`</a> folder. You can run this file to install all the dependencies at once.<br> **Just in case**, the script fails, you should be able to install the dependencies by manually typing the commands one by one.
+>
+> **NOTE :** You can simply open your current working directory inside of WSL by typing `bash` in the CMD.
+
+> Once the prerequisites are installed, you can proceed to run the `build.sh` file which will automagically build the files for you and place them in the `bin` folder & run them on QEMU.<br>
