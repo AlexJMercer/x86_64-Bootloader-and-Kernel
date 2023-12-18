@@ -4,7 +4,7 @@
 mov [boot_drive], dl
 
 CODE_SEG equ code_descriptor - gdt_start
-DATA_SEG equ code_descriptor - gdt_start
+DATA_SEG equ data_descriptor - gdt_start
 
 cli                     ; Disable interrupts
 lgdt [gdt_descriptor]   ; Load GDT into GDTR register
